@@ -151,6 +151,7 @@ export default function DateSelection() {
         .map((id) => ACTIVITIES.find((a) => a.id === id)?.title || id)
         .join(", "),
       custom_plan: customPlan || "Không có",
+      email: process.env.NEXT_PUBLIC_TO_EMAIL || "hohuuhoang147@gmail.com"
     };
 
     if (!serviceId || !templateId) {
