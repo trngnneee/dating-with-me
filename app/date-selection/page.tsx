@@ -35,7 +35,7 @@ const ACTIVITIES = [
   { id: "workshop", title: "DIY Workshop", iconName: "Palette" as const, description: "Cùng làm gốm, vẽ tranh hay làm nến thơm" },
   { id: "acoustic", title: "Acoustic Night", iconName: "Music" as const, description: "Lắng nghe những giai điệu tình ca êm dịu" },
   { id: "photobooth", title: "Photobooth", iconName: "Camera" as const, description: "Lưu lại những khoảnh khắc đáng yêu của hai đứa" },
-  { id: "custom", title: "Your Plan", iconName: "PenTool" as const, description: "Lên kế hoạch riêng theo sở thích của hai tụi mình" }
+  { id: "custom", title: "Your Plan", iconName: "PenTool" as const, description: "Tớ lên kế hoạch riêng rồi liên hệ với cậu sau nhé!" }
 ];
 
 // Time of day options
@@ -43,7 +43,7 @@ const TIME_OF_DAYS = [
   { id: "morning", label: "Morning", icon: "", time: "08:00 - 11:30" },
   { id: "afternoon", label: "Afternoon", icon: "", time: "13:30 - 17:30" },
   { id: "evening", label: "Evening", icon: "", time: "18:00 - 21:30" },
-  { id: "latenight", label: "Late Night", icon: "", time: "22:00 - 23:30" }
+  { id: "latenight", label: "Late Night", icon: "", time: "22:00 - 23:30"d }
 ];
 
 export default function DateSelection() {
