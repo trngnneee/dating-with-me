@@ -80,7 +80,7 @@ export default function Home() {
         
         {/* Subtitle */}
         <p className="text-slate-500 text-sm md:text-[14px] font-medium max-w-sm mb-6">
-          Sao chúng mình không thử đi chơi cùng nhau nhỉ? Tớ có một vài ý tưởng hẹn hò siêu dễ thương đang chờ cậu khám phá đấy!
+          Sao chúng mình không thử đi chơi cùng nhau nhỉ? Tớ có một vài ý tưởng siêu dễ thương đang chờ cậu khám phá đấy!
         </p>
 
         {/* Cute Bear Image */}
