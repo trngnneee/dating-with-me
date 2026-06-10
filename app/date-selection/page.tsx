@@ -43,7 +43,7 @@ const TIME_OF_DAYS = [
   { id: "morning", label: "Morning", icon: "", time: "08:00 - 11:30" },
   { id: "afternoon", label: "Afternoon", icon: "", time: "13:30 - 17:30" },
   { id: "evening", label: "Evening", icon: "", time: "18:00 - 21:30" },
-  { id: "latenight", label: "Late Night", icon: "", time: "22:00 - 23:30"d }
+  { id: "latenight", label: "Late Night", icon: "", time: "22:00 - 23:30" }
 ];
 
 export default function DateSelection() {
